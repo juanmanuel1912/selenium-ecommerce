@@ -1,4 +1,4 @@
-package step_definitions;
+package stepDefinitions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -16,16 +16,15 @@ public class Hooks {
     @Before
     public void openBrowser(){
         //WebDriverManager.chromedriver().clearDriverCache().setup();
-        //fungsi untuk setup chrome agar bisa terbuka
         WebDriverManager.chromedriver().setup();
         ChromeOptions co = new ChromeOptions();
         co.addArguments("--remote-allow-origins=*");
-        //inisiasi library selenium
+        //library selenium
         driver = new ChromeDriver(co);
 
         String appUrl = "https://www.demoblaze.com/index.html";
-        driver.get(appUrl);//fungsi untuk membuka link html
-        driver.manage().window().maximize();//fungsi untuk memaximize browser
+        driver.get(appUrl);
+        driver.manage().window().maximize();
     }
 
     @After(order = 0)

@@ -1,11 +1,11 @@
-package step_definitions;
+package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pageObject.HomePage;
-import org.example.pageObject.LoginPage;
+import org.demoBlazer.pageObj.HomePage;
+import org.demoBlazer.pageObj.LoginPage;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 

@@ -8,11 +8,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions (
 //        tags = "",
         features = {"classpath:features/"},
-        glue = { "classpath:step_definitions"},
+        glue = { "classpath:stepDefinitions"},
         tags = "@loginStatus",
-       // tags = "@loginValid and @loginInvalid" ,
+        //tags = "@loginValid and @loginInvalid",
         plugin= {"pretty","html:target/site/cucumber-pretty","json:target/cucumber/cucumber.json"}
 )
 
-public class RunCukesTest {
+public class RunTest {
 }

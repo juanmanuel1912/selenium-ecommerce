@@ -20,6 +20,6 @@ Feature: Log in feature
     Then Pop up "User does not exist." will be shown
 
     Examples:
-      | username  | password |
-      | rayariff  | 123456   |
-      | sadasfasf | asfasd   |
+      | username    | password  |
+      | juan1912    | 123456789 |
+      | sadasf22asf | as233fasd |

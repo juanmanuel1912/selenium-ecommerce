@@ -1,10 +1,8 @@
-package step_definitions;
+package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
-import org.example.pageObject.HomePage;
-import org.example.pageObject.LoginPage;
-import org.example.pageObject.SignupPage;
+import org.demoBlazer.pageObj.SignupPage;
 import org.openqa.selenium.WebDriver;
 
 public class SignupStepDef {

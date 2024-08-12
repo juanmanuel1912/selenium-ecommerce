@@ -1,10 +1,10 @@
-package step_definitions;
+package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pageObject.LoginPage;
-import org.example.pageObject.ProductPage;
+import org.demoBlazer.pageObj.LoginPage;
+import org.demoBlazer.pageObj.ProductPage;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import static org.junit.Assert.assertNotEquals;

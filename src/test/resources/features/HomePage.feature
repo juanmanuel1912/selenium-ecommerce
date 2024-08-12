@@ -3,8 +3,8 @@ Feature: Home page feature
   Scenario: Verify that the product card displays the image, name, price, and description of product correctly
     Given User already on home page
     When User click login in navigation
-    And User input "rayariff" as username in login page
-    And User input "123456" as password in login page
+    And User input "juan1912" as username in login page
+    And User input "123456789" as password in login page
     And User click login button
     Then Welcome user in navigation is shown
     And Product image is shown correctly
@@ -16,8 +16,8 @@ Feature: Home page feature
   Scenario: Verify that clicking on the next button only shows relevant products when a category is chosen
     Given User already on home page
     When User click login in navigation
-    And User input "rayariff" as username in login page
-    And User input "123456" as password in login page
+    And User input "juan1912" as username in login page
+    And User input "123456789" as password in login page
     And User click login button
     Then Welcome user in navigation is shown
     When User click monitor categories

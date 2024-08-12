@@ -1,4 +1,4 @@
-package org.example.pageObject;
+package org.demoBlazer.pageObj;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
